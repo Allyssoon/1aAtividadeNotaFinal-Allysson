@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    <style>
+        h1{
+            color: green;
+        }
+
+        input{
+            padding: 1px;
+            margin-right: 20px;
+            font-size: 20px;
+        }
+        button{
+            color: green;
+            font-size: 20px;
+        }
+
+        p{
+            color: red;
+            font-size: 30px;
+        }
+
+    </style>
+    
+
+
+    
+</head>
+<body>
+
+    <form id="form">
+        <h1>Soma de Dois Números</h1>
+        <input id="num1" type="number">
+        <input id="num2" type="number">
+         <p class="resultado"></p>
+        <button type="submit">Somar</button>
+
+    </form>
+
+    <script>
+       
+        const form = document.getElementById('form');
+        const resultado = document.querySelector('.resultado');
+
+       
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            
+            const num1 = parseFloat(document.getElementById('num1').value);
+            const num2 = parseFloat(document.getElementById('num2').value);
+
+            
+            const soma = num1 + num2;
+            resultado.textContent = `Resultado: ${soma}`;
+        });
+    </script>
+</body>
+</html>
+
+
+
+
