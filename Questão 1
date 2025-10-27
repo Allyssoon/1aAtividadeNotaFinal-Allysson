@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Exercicio 1</title>
+    <title>Document</title>
     <style>
        
 .container {
@@ -65,7 +64,7 @@ a{
 <body>
    <div class="container">
         <div class="imagem">
-            <img src="/Allysson.jpeg" alt="Imagem">
+            <img src="https://scontent.fsdu9-1.fna.fbcdn.net/v/t39.30808-6/461451081_3866127370375569_5805854672744555737_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-xHE00mYS1AQ7kNvwH_FkBG&_nc_oc=AdlhHZEFNhKzHXs-YlvlrElCjEsy4mqf0wgARK4vJ7ML9yjVfJC15kz2_19yyXoVoI2vhDMqDu81JyCq0dGRRERI&_nc_zt=23&_nc_ht=scontent.fsdu9-1.fna&_nc_gid=qNtImUZX9qJATTJFNoSeDQ&oh=00_Aff12dNk5zRUKEDD913bnaR57CK8KFDbEOH2G13rbkpglg&oe=69058364" alt="Imagem">
             <h1>Allysson Silva Pereira</h1>
             <h2>Desenvolvedor Web</h2>
             <h3>Olá! Meu nome é Allysson e sou apaixonado por tecnologia e desenvolvimento web.<br>
@@ -76,9 +75,9 @@ a{
             <button>CSS</button>
             <button>JavaScript</button>
             <button>React</button><br><br><br>
-                <a href="https://www.google.com" target="_blank">Linkedin</a>
-                    <a href="https://www.google.com" target="_blank">GitHub</a>
-                        <a href="https://www.google.com" target="_blank">Twitter</a>
+                <a href="https://x.com/home" target="_blank">Linkedin</a>
+                    <a href="https://github.com/Allyssoon" target="_blank">GitHub</a>
+                        <a href="https://x.com/home" target="_blank">Twitter</a>
         </div>
     </div>
 
