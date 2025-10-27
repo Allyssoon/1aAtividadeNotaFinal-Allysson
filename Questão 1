@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+       
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: top;    
+    height: 100vh;           
+    text-align: center;
+}
+
+
+.imagem img {
+    width: 200px;     
+    height: 200px;     
+    border-radius: 50%; 
+    object-fit: cover;  
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: 5px solid green;
+   
+}
+
+
+
+
+h1{
+    color: green;
+}
+button{
+    color: aliceblue;
+    background-color: green;
+    margin-left: 35px;
+    margin-right: 34px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+a{
+    color: green;
+    display: inline;
+    margin: 35px;
+    text-decoration: none;
+    font-size: 25px;
+   
+       
+
+
+}
+
+
+
+
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div class="imagem">
+            <img src="/Allysson.jpeg" alt="Imagem">
+            <h1>Allysson Silva Pereira</h1>
+            <h2>Desenvolvedor Web</h2>
+            <h3>Olá! Meu nome é Allysson e sou apaixonado por tecnologia e desenvolvimento web.<br>
+                Tenho experiência em HTML, CSS, JavaScript e outras tecnologias modernas.<br>
+                Adoro criar páginas bonitas e funcionas que proporcionam uma ótima experiência ao usuário.
+            </h3>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JavaScript</button>
+            <button>React</button><br><br><br>
+                <a href="https://www.google.com" target="_blank">Linkedin</a>
+                    <a href="https://www.google.com" target="_blank">GitHub</a>
+                        <a href="https://www.google.com" target="_blank">Twitter</a>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
