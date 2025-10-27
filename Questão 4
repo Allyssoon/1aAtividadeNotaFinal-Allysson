@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+    <style>
+        #form{
+            
+            justify-content: center; 
+            align-items: top;    
+            height: 100vh;           
+            text-align: center;
+
+        }
+
+        button{
+            color: white;
+            padding: 10px;
+            background-color: green;
+            width: 180px;
+            
+        }
+
+        input{
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="form">
+        <h1>Calculadora de IMC</h1>
+        <h2>Peso(kg):</h2>
+        <input id = 'valor1' type="number" step="any"/>
+        <h3>Altura (m):</h3>
+        <input id = 'valor2' type="number"  step="any"/><Br><BR>
+        <button>Calcular IMC</button>
+        <p class="resultado"></p>
+    </form>
+
+    <script>
+       
+        const form = document.getElementById('form');
+        const resultado = document.querySelector('.resultado');
+
+       
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            
+            const num1 = parseFloat(document.getElementById('valor1').value);
+            const num2 = parseFloat(document.getElementById('valor2').value);
+
+            
+            const imc = num1 / (num2 * num2) ;
+            resultado.textContent = `Resultado: ${imc.toFixed(2)}`;
+        });
+    </script>
+    
+</body>
+</html>
